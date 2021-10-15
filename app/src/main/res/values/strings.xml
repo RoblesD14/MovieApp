@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="Nombre">nombre</string>
+    <string name="Apellidos">apellidos</string>
+    <string name="Correo">correo</string>
+    <string name="Password">contraseña</string>
+    <string name="Telefono">telefono</string>
+</resources>
