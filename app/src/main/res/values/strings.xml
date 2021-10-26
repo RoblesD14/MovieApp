@@ -4,5 +4,7 @@
     <string name="Apellidos">apellidos</string>
     <string name="Correo">correo</string>
     <string name="Password">contraseña</string>
-    <string name="Telefono">telefono</string>
+    <string name="Telefono">numtarjeta</string>
+    <string name="Fecha">VencimientoTarjeta</string>
+    <string name="Codigo">CodigoSeguridadDtarjeta</string>
 </resources>

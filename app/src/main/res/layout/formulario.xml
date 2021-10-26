@@ -9,13 +9,12 @@
         android:layout_width="match_parent"
         android:layout_height="37dp"
         android:layout_centerHorizontal="true"
-        android:layout_centerHorisontal="true"
         android:text="FORMULARIO"
         android:textSize="25dp"
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -23,7 +22,7 @@
         android:hint="@string/Nombre" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/etApellido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -31,7 +30,7 @@
         android:hint="@string/Apellidos" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/etCorreo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -39,7 +38,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/et_contraseña"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -47,12 +46,28 @@
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/etNumTarjeta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/Telefono"
-        android:inputType="phone" />
+        android:hint="numTarjeta"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="VencimientoTarjeta"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/etCodSeguridad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CodigoSeguridadDtarjeta"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/button3"
