@@ -57,7 +57,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             {
                 Toast.makeText(this, "PROYECTO" + listaCliente.get(i).getNombre(), Toast.LENGTH_SHORT).show();
                 ClienteEncontrado = true;
-                Intent inicio = new Intent(MainActivity.this, InicioActivity.class);
+                Intent inicio = new Intent(this, Principal.class);
+                inicio.putExtra("nombre",listaCliente.get(i).getNombre());
+                inicio.putExtra("apellidos",listaCliente.get(i).getApellidos());
                 startActivity(inicio);
             }
             else if(correo.isEmpty() || contraseña.isEmpty());{
@@ -77,5 +79,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-
+    public void registrarse(View view) {
+            Intent iregistro  = new Intent(this,Registro.class);
+            startActivity(iregistro);
+    }
 }

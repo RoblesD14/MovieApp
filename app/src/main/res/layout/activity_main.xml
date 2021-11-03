@@ -54,7 +54,9 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="REGISTRARSE" />
+        android:text="REGISTRARSE"
+        android:onClick="registrarse"
+        />
 
 
 </LinearLayout>

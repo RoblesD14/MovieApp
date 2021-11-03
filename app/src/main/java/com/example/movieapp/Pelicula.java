@@ -1,7 +1,6 @@
 package com.example.movieapp;
 
 public class Pelicula {
-
     private String titulo;
     private String descripcion;
     private int anho;
