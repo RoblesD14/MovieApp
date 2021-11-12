@@ -20,6 +20,14 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/etDni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Dni" />
+
+        <EditText
             android:id="@+id/etNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -79,7 +87,8 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ENVIAR" />
+            android:text="ENVIAR"
+            android:onClick="guardar"/>
         <Button
             android:id="@+id/btnAtras"
             android:layout_width="match_parent"

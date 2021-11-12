@@ -24,6 +24,7 @@ public class InicioActivity extends RecyclerView.Adapter<InicioActivity.ViewHold
         this.context = context;
     }
 
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -58,5 +59,5 @@ public class InicioActivity extends RecyclerView.Adapter<InicioActivity.ViewHold
             poster.setImageResource(item.getPoster());
         }
     }
-}
 
+}
